@@ -14,6 +14,7 @@ yum -y install mysql-server
 #php
 yum -y install php php-pear
 yum -y install php-mysql
+yum -y install php-gd
 
 #python
 yum -y install mod_wsgi

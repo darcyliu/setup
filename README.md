@@ -27,9 +27,10 @@ Execute the following commands at your servers command-line:
 	$ curl -OL https://raw.github.com/darcyliu/setup/master/centos_lemp.sh
 	$ sh centos_lemp.sh
 	
-##Recommand Cloud Service
+##Recommend Cloud Service
 * [Google Compute Engine](https://cloud.google.com/products/compute-engine/) 
 * [Linode](http://www.linode.com/?r=8dd6ddd391fc320d9f55ad101e051bde767df599)
 * [DigitalOcean](https://www.digitalocean.com/?refcode=e655c19f2abb)
+* [Amazon EC2](http://aws.amazon.com/ec2/)
 
 

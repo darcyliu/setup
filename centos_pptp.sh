@@ -1,4 +1,4 @@
-#pptp
+#pptp install srcript for CentOS 6
 yum -y update
 
 rpm -Uvh http://poptop.sourceforge.net/yum/stable/rhel6/pptp-release-current.noarch.rpm
@@ -14,6 +14,8 @@ echo "localip 192.168.9.1" >> /etc/pptpd.conf
 echo "remoteip 192.168.9.2-254" >> /etc/pptpd.conf
 echo "ms-dns 8.8.8.8" >> /etc/ppp/options.pptpd
 echo "ms-dns 8.8.4.4" >> /etc/ppp/options.pptpd
+echo "ms-dns 208.67.220.220" >> /etc/ppp/options.pptpd
+echo "ms-dns 208.67.220.123" >> /etc/ppp/options.pptpd
 
 service iptables start
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE

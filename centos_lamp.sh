@@ -1,3 +1,5 @@
+#LAMP install srcript for CentOS 6
+
 yum -y update
 
 #httpd
@@ -18,3 +20,6 @@ yum -y install php-gd
 
 #python
 yum -y install mod_wsgi
+
+#restart apache
+service httpd restart

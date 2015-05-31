@@ -1,7 +1,7 @@
 setup
 =====
 
-Deployment Scripts for CentOS 6
+Deployment Scripts for CentOS
 
 
 ## Installation

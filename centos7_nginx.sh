@@ -1,12 +1,16 @@
 #!/bin/sh
 # NGINX install srcript for CentOS 7
 
-#nginx
 yum -y update
+
+# install nginx
 yum -y install nginx
 
-sudo firewall-cmd --permanent --zone=public --add-service=http 
-sudo firewall-cmd --permanent --zone=public --add-service=https
-sudo firewall-cmd --reload
+# enable firewall
+firewall-cmd --permanent --zone=public --add-service=http 
+firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --reload
 
+# start nginx service
 systemctl start nginx.service
+systemctl enable nginx.service

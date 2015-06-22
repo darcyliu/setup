@@ -3,6 +3,9 @@
 
 yum -y update
 
+# install EPEL
+yum -y install epel-release
+
 # install nginx
 yum -y install nginx
 

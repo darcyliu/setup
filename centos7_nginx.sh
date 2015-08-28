@@ -1,5 +1,5 @@
 #!/bin/sh
-# NGINX install srcript for CentOS 7
+# NGINX install script for CentOS 7
 
 yum -y update
 

@@ -1,4 +1,4 @@
-#LEMP install srcript for CentOS 6
+#LEMP install script for CentOS 6
 
 #nginx
 rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm

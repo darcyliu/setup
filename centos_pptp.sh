@@ -1,4 +1,4 @@
-#pptp install srcript for CentOS 6
+#pptp install script for CentOS 6
 yum -y update
 
 rpm -Uvh http://poptop.sourceforge.net/yum/stable/rhel6/pptp-release-current.noarch.rpm

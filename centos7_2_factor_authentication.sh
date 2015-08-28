@@ -1,5 +1,5 @@
 #!/bin/sh
-# Google Authenticator 2 factor authentication install srcript for CentOS 7
+# Google Authenticator 2 factor authentication install script for CentOS 7
 
 yum -y update
 

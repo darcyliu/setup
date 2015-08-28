@@ -1,4 +1,4 @@
-#LAMP install srcript for CentOS 6
+#LAMP install script for CentOS 6
 
 yum -y update
 

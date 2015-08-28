@@ -1,4 +1,4 @@
-# pptp install srcript for CentOS 7
+# pptp install script for CentOS 7
 yum -y update
 
 #rpm -Uvh http://download.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-1.noarch.rpm
